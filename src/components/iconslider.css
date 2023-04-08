@@ -1,0 +1,49 @@
+/* icon slider */
+.slider-text{
+    color:#d0d0d0;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    font-family: tw cen mt;
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .iconslider{
+    background-color: #242222;
+    padding-bottom: 3rem;
+  
+  }
+  .iconslider img{
+    width:150px;
+    height:150px;
+    justify-content: center;
+    margin:auto;
+    transition: all 0.2s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .iconslider img:hover{
+    scale:108%;
+    opacity: 70%;
+    cursor: pointer;
+    
+  }
+  .slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  }
+  
+  p.text{
+    color:aliceblue;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 32px;
+    font-family: tw cen mt;
+    font-size: 1.3rem;
+  }
+  /* iconslider css ended */

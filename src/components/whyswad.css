@@ -1,0 +1,30 @@
+.container{
+    background-color: black;
+    color:aliceblue;
+    padding: 100px 75px 100px 75px;
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+}   
+.container h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    padding: 0px 0px 60px 0px;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contents h3{
+    padding: 0px 0px 20px 0px;
+    font-size: 1.5em;
+    /* color: #F13C31; */
+    color: aliceblue;
+}
+.contents p{
+    font-size: 1.1em;
+    text-align: left;
+    max-width: 350px;
+    line-height: 1.5rem;
+}

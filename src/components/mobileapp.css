@@ -1,0 +1,104 @@
+/* mobile app */
+
+.mobileapp{
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #ffffff;
+    height: 500px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+  }
+  
+  .mobileapp p{
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 20px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 2rem;
+    
+  
+  }
+  
+  .mobileapp img{
+    width:150px;
+    height:150px;
+  }
+  
+  .main img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    position: relative;
+  }
+  
+  /* overlay effect */
+  .overlay{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(235, 235, 234);
+    transition: 0.2s ease;
+    backdrop-filter: blur(5px);
+    
+  }
+  .text{
+    font-size: 20px;
+    font-family: tw cen mt;
+  }
+  
+  .overlay:hover{
+    opacity: 0.8;
+  }
+  
+  /* overlay effect end */
+  
+  .app-list{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .app-list2{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+  }
+  
+  
+  
+  
+  .card{
+    background-color: rgb(253, 253, 253);
+    width:130px;
+    height:160px;
+    border: 5px rgb(42, 42, 218);
+    border-radius: 10px;
+    transition: all 0.2s;
+    box-shadow: 10px 15px 20px rgb(200, 200, 200);
+  }
+  .card:hover{
+    scale:110%;
+  }
+  .card img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding:15px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .card .card-text{
+    color: #393939;
+    text-align: center;
+    
+  }
+  

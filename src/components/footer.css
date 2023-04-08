@@ -1,0 +1,50 @@
+.footer{
+    background-color: rgb(22, 22, 22);
+    padding:60px 75px 35px 75px;
+    color: aliceblue;
+    /* font-family: tw cen mt; */
+    font-family: poppins,sans-serif;
+}
+
+.footer .contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    text-decoration: none;
+}
+/* .footer .contents .col-1 h2{
+    color: red;
+    font-family: lato;
+    padding: 0px;
+    
+    
+}
+.footer .contents .col-3 ul{
+    color: red;
+    font-family: lato;
+    padding: 0px;
+    margin-right: 0px;
+    
+    
+} */
+
+.footer li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 20px;
+    transition:all 0.3s ease-in-out;
+    margin-bottom: 5px;
+    
+}
+.footer li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    
+    
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: #F13C31;
+  }
