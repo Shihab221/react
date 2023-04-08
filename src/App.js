@@ -32,7 +32,7 @@ function App() {
     </BrowserRouter>         
 
       <Img />
-      {/* <CenterMode /> */}
+      <CenterMode />
       <Mobileapp />
       <Whyswad />
       <Solution />
